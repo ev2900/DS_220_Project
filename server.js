@@ -5,16 +5,6 @@ var bodyParser = require('body-parser');
 var path = require('path');
 var sendgrid = require("sendgrid")("Sq1OeM4gSDWOtMdEGMaclA"); 
 
-// Braintree #1
-var braintree = require('braintree');
-
-var gateway = braintree.connect({
-  environment: braintree.Environment.Sandbox,
-  merchantId: '6dr2nwjy8f56mqyt',
-  publicKey: 'yxhwjftm8t34rcmg',
-  privateKey: '21fa3101d6721f02312a2503985db88c'
-});
-
 var parseUrlEnconded = bodyParser.urlencoded({
   extended: false
 });
@@ -37,11 +27,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Routess
 	//EJS Routes 
-	app.get('/payment/:id', function(req, res) {
-		var id_url = req.params.id;
-		res.render("payment.ejs", {id_url: id_url});
-	}); 
-
 	app.get('/', function (request, response) {
 	  gateway.clientToken.generate({}, function (err, res) {
 	    response.render('index', {
