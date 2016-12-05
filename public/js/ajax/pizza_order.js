@@ -35,7 +35,7 @@ $(function (){
 
         $.ajax({
             type: 'POST',
-            url: 'http://www.parkingbee.co:9000/api_pending/spots_pending',
+            url: 'http://35.161.233.165:9000//api_pending/spots_pending',
             data: new_spot,
             success: function(newSpot){
                 window.location.replace("/thank_you_list/" + $emaill.val() + "/" + $titlee.val());
