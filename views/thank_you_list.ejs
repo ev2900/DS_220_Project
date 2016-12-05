@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Parking Bee </title>
+        <meta name="description" content="company is a free job board template">
+        <meta name="author" content="Ohidul">
+        <meta name="keyword" content="html, css, bootstrap, job-board">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/fontello.css">
+        <link rel="stylesheet" href="/css/animate.css">        
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/owl.carousel.css">
+        <link rel="stylesheet" href="/css/owl.theme.css">
+        <link rel="stylesheet" href="/css/owl.transitions.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/responsive.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-default" style="border: none">
+          <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" alt=""> &nbsp;&nbsp; Parking Bee </a> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <div class="button navbar-right">
+                  <a href="/list_your_spot"> <button class="navbar-btn nav-button wow bounceInRight login" data-wow-delay="0.8s"> List Your Space </button> </a>
+                  <a href="/#"> <button class="navbar-btn nav-button wow fadeInRight" data-wow-delay="0.6s"> </button> </a>
+              </div>
+              
+              <ul class="main-nav nav navbar-nav navbar-right">
+                <li class="wow fadeInDown" data-wow-delay="0s"><a href="/">Home</a></li>
+                <li class="wow fadeInDown" data-wow-delay="0.1s"><a href="/summer_parking_spaces"> Summer Parking Spaces </a></li>
+                <li class="wow fadeInDown" data-wow-delay="0.2s"><a href="/how_it_works"> How it Works </a></li>
+                <li class="wow fadeInDown" data-wow-delay="0.3s"><a href="/jobs"> Jobs </a></li>
+                <li class="wow fadeInDown" data-wow-delay="0.4s"><a href="/contact"> Contact Us </a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+        </div>
+        
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-11" align="center">
+                    <br>
+                    <h2 style="color:#F7A448">  </h2>
+                </div>
+            </div>
+
+            <div class="row">
+                
+                <div class="col-lg-1"></div>
+                <div class="col-lg-11" align="center">
+                    <br><br>
+                    <br><br>
+                    <h1 style="color:#F7A448"> Thank you </h1>
+                    <br><br>  
+                    <h3> We appreciate you listing a spot. </h3>
+                    <h3> We  appreciate you using Parking Bee.</h3>
+                    <h3> Park on. </h3>
+                    
+                    <br>
+                    <br>
+                    <br>
+                    
+                    <a href="/"> <input class="btn" value="Home" style="background-color: #FFF; color: #F7A448; width: 125px; height: 50px; font-size: 20px;"> </a>
+                    <a href="/list_your_spot"> <input class="btn navbar-btn nav-button login btn" value="List a Space" style="width: 125px; height: 50px; background-color: #F7A448; color: #FFF; font-size: 15px;"> </a>
+                    
+                    <br><br>
+                    <br><br>
+
+                    <form action="" class=" form-inline">
+                        <div class="form-group" >
+                        <input type="hidden" class="form-control" placeholder="" style="width: 300px;" id="email_email" autocomplete='off' value='<%= email_email %>'>
+                        <br><br>
+                        <input type="hidden" class="form-control" placeholder="" style="width: 300px;" id="id_id" autocomplete='off' value='<%= id_id %>'>
+                        <br><br>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/owl.carousel.min.js"></script>
+        <script src="/js/wow.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/ajax/thank_you_list.js"></script>
+    </body>
+</html>
