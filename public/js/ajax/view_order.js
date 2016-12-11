@@ -41,7 +41,7 @@ $("button").click(function() {
         url: 'http://35.161.233.165:9000/api_pending/spots_pending/584cb1ffef48dc47b93f2b30',
         success: function() {
             alert('suc');
-        }
+        },
         error: function() {
             alert('fail');
         }
