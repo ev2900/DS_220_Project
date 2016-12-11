@@ -38,7 +38,7 @@ $(function (){
             url: 'http://35.161.233.165:9000/api_pending/spots_pending',
             data: new_spot,
             success: function(newSpot){
-                window.location.replace("/thank_you_list/" + $emaill.val() + "/" + $titlee.val());
+                window.location.replace("/view_orders");
             },
             error: function() {
                 alert('error saving order');
