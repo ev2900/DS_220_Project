@@ -24,7 +24,7 @@ $(function (){
                                         '<h4>' + spot.title + '</h4>' + 
                                     '</div>'+
                                     '<div class="col-lg-2 col-xs-12 listing-title">' +
-                                         '<a href="http://52.37.179.213:9000/detail/' + spot._id + '" class="btn">Delete</a>'
+                                         '<a href="http://52.37.179.213:9000/detail/' + spot._id + '" class="btn">Delete</a>' +
                                     '</div>'+
                                 '</div>' );
             });
