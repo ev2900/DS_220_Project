@@ -4,7 +4,7 @@ $(function (){
 
     $.ajax({
         type: 'GET',
-        url: 'http://52.37.179.213:9000/api/spots',
+        url: 'http://35.161.233.165:9000/api_pending/spots_pending',
         success: function(spotz) {
             $.each(spotz, function(i, spot) {
                 $spotz.append( '<div class="row parking-listings">' +
