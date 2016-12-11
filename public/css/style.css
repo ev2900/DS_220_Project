@@ -51,7 +51,7 @@ body{
   width: 100%;
 }
 .navbar-default .navbar-nav > li > a::after {
-background-color: #F7A448;
+background-color: #FF0000;
   bottom: -24px;
   content: "";
   height: 5px;
@@ -89,12 +89,12 @@ background-color: #F7A448;
   transition: all 0.4s ease;
 }
 .nav-button.login{
-	background-color: #F7A448;
+	background-color: #FF0000;
 	margin-right: 5px;
 	color: #FFF;
 }
 .nav-button:hover{
-	color: #F7A448;
+	color: #FF0000;
 	background-color: #FFF;
 
 }
@@ -170,7 +170,7 @@ background-color: #F7A448;
   width: 195px;
 }
 .form-inline input[type=submit]{
-	background: #F7A448;
+	background: #FF0000;
 	color: #fff;
 	height: 40px;
 	width: 90px;
@@ -184,7 +184,7 @@ background-color: #F7A448;
 }
 .form-inline input[type=submit]:hover{
 	background: #FFF;
-	color: #F7A448;
+	color: #FF0000;
 }
 .page-title {
 	padding-top: 70px;
@@ -246,7 +246,7 @@ background-color: #F7A448;
 	transition: all 0.2s ease-in-out;
 }
 .single-work.active{	
-	background: #F7A448;
+	background: #FF0000;
 }
 .single-work.active h3{
 	color: #fff
@@ -271,7 +271,7 @@ background-color: #F7A448;
   border-width: 4px;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  border-color: transparent transparent #F7A448;
+  border-color: transparent transparent #FF0000;
   border-style: solid;
   border-width: 4px;
   color: #666666;
@@ -406,7 +406,7 @@ background-color: #F7A448;
 }
 .parking-listings a{
 	color: #fff;
-	background: #F7A448;
+	background: #FF0000;
 	padding:12px 15px;
 	border-radius: 5px;
 	font-size: 13px;
@@ -420,11 +420,11 @@ background-color: #F7A448;
 	transition: all 0.1s ease-in-out;
 }
 .parking-listings:hover a{
-	background: #F7A448
+	background: #FF0000
 }
 .parking-listings:hover a:hover{
 	background: #fff;
-	color: #F7A448;
+	color: #FF0000;
 }
 .parking-listings{
 	border-top: 0px;
@@ -483,7 +483,7 @@ background-color: #F7A448;
 }
 .table tr td a{
 	color: #fff;
-	background: #F7A448;
+	background: #FF0000;
 	padding:12px 15px;
 	border-radius: 5px;
 	font-size: 13px;
@@ -496,11 +496,11 @@ background-color: #F7A448;
 	transition: all 0.1s ease-in-out;
 }
 .table tr:hover td a{
-	background: #F7A448
+	background: #FF0000
 }
 .table tr:hover td a:hover{
 	background: #fff;
-	color: #F7A448
+	color: #FF0000
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
 	border-top: 0px;
