@@ -27,11 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Routess
 	//EJS Routes 
 	app.get('/', function(req, res) {
-		res.render("index.ejs");
-	});
-
-	app.get('/contact', function(req, res) {
-		res.render("contact_us.ejs");
+		res.render("list_your_spot.ejs");
 	});
 
 	app.get('/list_your_spot', function(req, res) {
