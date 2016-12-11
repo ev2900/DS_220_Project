@@ -9,7 +9,7 @@ $(function (){
             $.each(spotz, function(i, spot) {
                 $spotz.append( '<div class="row parking-listings">' +
                                     '<div class="col-lg-2 col-xs-12 listing-title">' +
-                                        '<h4>' + spot.firstName + spot.lastName + '</h4>' + 
+                                        '<h4>' + spot.firstName + " " + spot.lastName + '</h4>' + 
                                     '</div>'+
                                     '<div class="col-lg-2 col-xs-12 listing-title">' +
                                         '<h4>' + spot.type + '</h4>' + 
