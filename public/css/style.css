@@ -25,7 +25,7 @@ body{
 
 }
 .header-social ul li a:hover{
-	color: #00AEEF
+	color: #FF0000;
 }
 .navbar-default .navbar-nav > li > a{
 	color: #202020;
@@ -41,7 +41,7 @@ body{
 }
 .navbar-default .navbar-nav > li > a.active:after{
 
-  background-color: #F7A448;
+  background-color: #00AEEF;
   bottom: -24px;
   content: "";
   height: 5px;

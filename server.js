@@ -38,12 +38,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 		res.render("summer_parking_spaces.ejs");
 	});
 
-	app.get('/thank_you_list/:email/:id', function(req, res) {
-		var email_email = req.params.email;
-		var id_id = req.params.id;
-		res.render("thank_you_list.ejs", {email_email: email_email, id_id: id_id});
-	});
-
 //End EJS Routes - sorry really have to put this into a seperate file at some point ...
 
 	app.use('/api', require('./routes/api'));
