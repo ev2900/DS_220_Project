@@ -24,7 +24,7 @@ $(function (){
                                         '<h4>' + spot.title + '</h4>' + 
                                     '</div>'+
                                     '<div class="col-lg-2 col-xs-12 listing-title">' +
-                                         '<input type="submit" class="navbar-btn nav-button login btn" value="Submit">' +
+                                         '<form> <input type="submit" class="navbar-btn nav-button login btn" value="Submit"> </form>' +
                                     '</div>'+
                                 '</div>' );
             });
