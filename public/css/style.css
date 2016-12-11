@@ -41,7 +41,7 @@ body{
 }
 .navbar-default .navbar-nav > li > a.active:after{
 
-  background-color: #00AEEF;
+  background-color: #FF0000;
   bottom: -24px;
   content: "";
   height: 5px;
