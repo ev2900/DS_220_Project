@@ -30,18 +30,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 		res.render("order_pizza.ejs");
 	});
 
-	app.get('/list_your_spot', function(req, res) {
-		res.render("list_your_spot.ejs");
-	});
-
-	app.get('/summer_parking_spaces', function(req, res) {
-		res.render("summer_parking_spaces.ejs");
+	app.get('/view_orders', function(req, res) {
+		res.render("view_orders.ejs");
 	});
 
 //End EJS Routes - sorry really have to put this into a seperate file at some point ...
 
-	app.use('/api', require('./routes/api'));
-	app.use('/payment', require('./routes/payment'));
 	app.use('/api_pending', require('./routes/api_pending'));
 
 // Start server
