@@ -33,18 +33,17 @@ $(function (){
             alert('error loading spots');
         }
     });
-
 });
 
-
-/* API call options 
-spot.firstName
-spot.lastName
-spot.email
-spot.phoneNumber
-spot.title
-spot.type
-spot.adress
-spot.description
-spot.spotAvailable
-*/ 
+$("button").click(function() {
+    $.ajax({
+        type: 'DELETE',
+        url: 'http://35.161.233.165:9000/api_pending/spots_pending/584cb1ffef48dc47b93f2b30',
+        success: function() {
+            //Sucess
+        }
+        error: function() {
+            //Error
+        }
+    });
+});
