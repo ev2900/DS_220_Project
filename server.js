@@ -9,7 +9,7 @@ var parseUrlEnconded = bodyParser.urlencoded({
 });
 
 // MongoDB
-mongoose.connect('mongodb://localhost/parking_bee');
+mongoose.connect('mongodb://localhost/pizza_app');
 
 // Express
 var app = express();
@@ -36,7 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //End EJS Routes - sorry really have to put this into a seperate file at some point ...
 
-	app.use('/api_pending', require('./routes/api_pending'));
+	app.use('/order', require('./routes/order'));
 
 // Start server
 app.listen(9000);
