@@ -1,3 +1,6 @@
+/*
+['get', 'put', 'post', 'delete'] on http://<ip>:9000/order/pizza
+*/
 
 // Dependencies
 var express = require('express');

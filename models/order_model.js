@@ -9,11 +9,11 @@ var order = new mongoose.Schema({
 	lastName: String,
 	phoneNumber: String,
 	type: String,
-	adress: String,
-	ccnumber: String,
-	ccname: String,
-	ccexperationdate: String,
-	ccsecuritycode: String
+	address: String,
+	ccNumber: String,
+	ccName: String,
+	ccExperationDate: String,
+	ccSecurityCode: String
 });
 
 // Return model
