@@ -4,7 +4,7 @@ var restful = require('node-restful');
 var mongoose = restful.mongoose;
 
 // Schema
-var spotSchema_pending = new mongoose.Schema({
+var order = new mongoose.Schema({
 	firstName: String,
 	lastName: String,
 	phoneNumber: String,
