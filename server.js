@@ -4,6 +4,7 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var path = require('path');
 
+// Url Encoding
 var parseUrlEnconded = bodyParser.urlencoded({
   extended: false
 });
@@ -14,7 +15,7 @@ mongoose.connect('mongodb://localhost/pizza_app');
 // Express
 var app = express();
 
-// View Engine
+// View Engine + Url encoding
 app.set("views", __dirname + "/views");
 app.set('view engine', 'ejs');
 
@@ -33,10 +34,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 	app.get('/view_orders', function(req, res) {
 		res.render("view_orders.ejs");
 	});
+	//End EJS Routes - sorry really have to put this into a seperate file at some point ...
 
-//End EJS Routes - sorry really have to put this into a seperate file at some point ...
-
-	app.use('/order', require('./routes/order'));
+	//API Routes
+	app.use('/order', require('./routes/order_api'));
 
 // Start server
 app.listen(9000);

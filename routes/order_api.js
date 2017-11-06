@@ -4,11 +4,11 @@ var express = require('express');
 var router = express.Router();
 
 //Models
-var Spot_pending = require('../models/order_pizza');
+var Spot_pending = require('../models/order_model');
 
 // Routes
 Spot_pending.methods(['get', 'put', 'post', 'delete']);
-Spot_pending.register(router, '/order_pizza');
+Spot_pending.register(router, '/pizza');
 
 // Return router
 module.exports = router;

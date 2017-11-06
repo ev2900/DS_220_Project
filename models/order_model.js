@@ -7,17 +7,14 @@ var mongoose = restful.mongoose;
 var spotSchema_pending = new mongoose.Schema({
 	firstName: String,
 	lastName: String,
-	email: String,
 	phoneNumber: String,
-	title: String,
 	type: String,
 	adress: String,
-	description: String,
-	start: String,
-	end: String,
-	rate: String,
-	additionalInfro: String
+	ccnumber: String,
+	ccname: String,
+	ccexperationdate: String,
+	ccsecuritycode: String
 });
 
 // Return model
-module.exports = restful.model('spot_pending', spotSchema_pending);
+module.exports = restful.model('order', order);
