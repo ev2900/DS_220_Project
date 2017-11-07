@@ -12,10 +12,10 @@ $(function (){
     var $ccexperationdatee = $('#ccexperationdate'); 
     var $ccsecuritycodee = $('#ccsecuritycode');
 
-    $('#submit-spot').on('submit', function(ev) {
+    $('#submit-order').on('submit', function(ev) {
         ev.preventDefault();
 
-        var new_spot = {
+        var new_order = {
             firstName:$firstt.val(),
             lastName:$lastt.val(),
             phoneNumber:$phonee.val(),
@@ -30,7 +30,7 @@ $(function (){
         $.ajax({
             type: 'POST',
             url: 'http://40.71.215.32:9000/order/pizza',
-            data: new_spot,
+            data: new_order,
             success: function(newSpot){
                 window.location.replace("/view_orders");
             },
