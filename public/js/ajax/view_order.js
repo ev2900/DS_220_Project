@@ -1,10 +1,10 @@
-$(function (){
+(function (){
 
     var $spotz = $('#spotz');
 
     $.ajax({
         type: 'GET',
-        url: 'http://35.161.233.165:9000/api_pending/spots_pending',
+        url: 'http://40.71.215.32:9000/order/pizza',
         success: function(spotz) {
             $.each(spotz, function(i, spot) {
                 $spotz.append( '<div class="row parking-listings">' +
@@ -15,13 +15,13 @@ $(function (){
                                         '<h4>' + spot.type + '</h4>' + 
                                     '</div>'+
                                     '<div class="col-lg-2 col-xs-12 listing-title">' +
-                                        '<h4>' + spot.adress + '</h4>' + 
+                                        '<h4>' + spot.address + '</h4>' + 
                                     '</div>'+
                                     '<div class="col-lg-2 col-xs-12 listing-title">' +
                                         '<h4>' + spot.phoneNumber + '</h4>' + 
                                     '</div>'+
                                     '<div class="col-lg-2 col-xs-12 listing-title">' +
-                                        '<h4>' + spot.title + '</h4>' + 
+                                        '<h4>' + '</h4>' + 
                                     '</div>'+
                                 '</div>' );
             });
