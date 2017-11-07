@@ -21,10 +21,10 @@ $(function (){
             phoneNumber:$phonee.val(),
             type:$typee.val(),
             address:$addresss.val(),
-            ccnumber:$ccnumberr.val(),
-            ccname:$ccnamee.val(),
-            ccexperationdate:$ccexperationdatee.val(),
-            ccsecuritycode:$ccsecuritycodee.val()
+            ccNumber:$ccnumberr.val(),
+            ccName:$ccnamee.val(),
+            ccExperationdate:$ccexperationdatee.val(),
+            ccSecuritycode:$ccsecuritycodee.val()
         };  
 
         $.ajax({
