@@ -23,8 +23,8 @@ $(function (){
             address:$addresss.val(),
             ccNumber:$ccnumberr.val(),
             ccName:$ccnamee.val(),
-            ccExperationdate:$ccexperationdatee.val(),
-            ccSecuritycode:$ccsecuritycodee.val()
+            ccExperationDate:$ccexperationdatee.val(),
+            ccSecurityCode:$ccsecuritycodee.val()
         };  
 
         $.ajax({
