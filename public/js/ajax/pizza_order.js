@@ -31,7 +31,7 @@ $(function (){
             type: 'POST',
             url: 'http://40.71.215.32:9000/order/pizza',
             data: new_order,
-            success: function(newSpot){
+            success: function(newOrder){
                 window.location.replace("/view_orders");
             },
             error: function() {
