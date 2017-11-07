@@ -21,7 +21,7 @@
                                         '<h4>' + spot.phoneNumber + '</h4>' + 
                                     '</div>'+
                                     '<div class="col-lg-2 col-xs-12 listing-title">' +
-                                        '<h4>' + '</h4>' + 
+                                        '<h4> </h4>' + 
                                     '</div>'+
                                 '</div>' );
             });
@@ -29,23 +29,5 @@
         error: function() {
             alert('error loading spots');
         }
-    });
-});
-
-$(function() {
-    
-    $('#submit-spot').on('submit', function(ev) {
-        ev.preventDefault();
-
-        $.ajax({
-            type: 'DELETE',
-            url: 'http://35.161.233.165:9000/api_pending/spots_pending/584cb1ffef48dc47b93f2b30',
-            success: function() {
-                alert('suc');
-            },
-            error: function() {
-                alert('fail');
-            }
-        });
     });
 });
