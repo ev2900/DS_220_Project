@@ -1,9 +1,12 @@
 # DS 220 Project
-Simple web application utilizing MongoDB. HTML/CSS front end with JQuery calling a RESTful API built with node and express on top of MongoDB. Built as a final project for DS 220 @ Penn State
 
-## Deployed Application
-To visit the web application: http://13.92.254.20:9000/
+DS 220 (Data Management for Data Sciences) final project. Simple full stack web application with a MongoDB based backend. HTML/CSS front end with JQuery calling a RESTful API built with node and express. The API has GET, POST, PUT, DELETE functions. 
 
-## Deploy to Auzre
+Preview 
+
+[PREVIEW](http://13.92.254.20:9000/) 
+
+Or deploy
 
 [![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+
