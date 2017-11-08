@@ -4,7 +4,7 @@ $(function (){
 
     $.ajax({
         type: 'GET',
-        url: 'http://40.71.215.32:9000/order/pizza',
+        url: 'http://13.92.254.20:9000/order/pizza',
         success: function(spotz) {
             $.each(spotz, function(i, spot) {
                 $spotz.append( '<div class="row parking-listings">' +
