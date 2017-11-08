@@ -29,7 +29,7 @@ $(function (){
 
         $.ajax({
             type: 'POST',
-            url: 'http://40.71.215.32:9000/order/pizza',
+            url: 'http://13.92.254.20:9000/order/pizza',   
             data: new_order,
             success: function(newOrder){
                 window.location.replace("/view_orders");
