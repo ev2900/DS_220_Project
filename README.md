@@ -5,8 +5,3 @@ DS 220 (Data Management for Data Sciences) final project. Simple full stack web 
 Preview 
 
 [PREVIEW HERE](http://13.92.254.20:9000/) 
-
-Or deploy
-
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
-
